@@ -27,5 +27,8 @@
     .hover {
         @apply hover:bg-[var(--btn-text-color)] py-3 px-[22px] rounded-[6px] transition-all duration-300
     }
+    .btn-gray {
+        @apply bg-[var(--btn-text-color)] max-w-full h-[52px] rounded-[6px] cursor-pointer
+    }
 }
 
