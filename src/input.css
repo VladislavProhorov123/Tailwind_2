@@ -6,6 +6,7 @@
     --bg-color: #1A1A1A;
     --text-color: #E6E6E6;
     --gray-color: #98989A;
+    --card-text-color: #D8FF99;
 }
 
 @layer base {
