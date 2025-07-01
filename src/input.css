@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+    --lingth-green: #9EFF00;
+    --btn-text-color: #262626;
+    --bg-color: #1A1A1A;
+    --text-color: #E6E6E6;
+    --gray-color: #98989A;
+}
+
+@layer base {
+    * {
+        @apply font-['Barlow'] text-white
+    }
+    body {
+        @apply bg-[var(--bg-color)]
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-screen-xl mx-auto px-[10px] min-h-screen
+    }
+    .btn {
+        @apply bg-[var(--lingth-green)] py-3 px-[18px] rounded-[6px] text-sm font-medium text-[var(--btn-text-color)]
+    }
+    .hover {
+        @apply hover:bg-[var(--btn-text-color)] py-3 px-[22px] rounded-[6px] transition-all duration-300
+    }
+}
+
