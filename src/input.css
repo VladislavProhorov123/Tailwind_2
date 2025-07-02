@@ -12,6 +12,7 @@
     --checkbox-color: #262626;
     --border-checkbox: #333333;
     --circle-color: #4C4C4D;
+    --footer-color: #98989A;
 }
 
 @layer base {
@@ -25,7 +26,7 @@
 
 @layer components {
     .container {
-        @apply max-w-screen-xl mx-auto px-[10px] min-h-screen
+        @apply max-w-screen-xl mx-auto px-[10px] 
     }
     .btn {
         @apply bg-[var(--lingth-green)] py-3 px-[18px] rounded-[6px] text-sm font-medium text-[var(--btn-text-color)]
@@ -35,5 +36,12 @@
     }
     .btn-gray {
         @apply bg-[var(--btn-text-color)] max-w-full h-[52px] rounded-[6px] cursor-pointer
+    }
+}
+
+@layer utilities {
+    .underline {
+        text-underline-offset: 12px;
+
     }
 }
