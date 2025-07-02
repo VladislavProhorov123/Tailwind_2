@@ -7,6 +7,11 @@
     --text-color: #E6E6E6;
     --gray-color: #98989A;
     --card-text-color: #D8FF99;
+    --bg-form-color: #1e1e1e;
+    --form-text: #656567;
+    --checkbox-color: #262626;
+    --border-checkbox: #333333;
+    --circle-color: #4C4C4D;
 }
 
 @layer base {
@@ -32,4 +37,3 @@
         @apply bg-[var(--btn-text-color)] max-w-full h-[52px] rounded-[6px] cursor-pointer
     }
 }
-
